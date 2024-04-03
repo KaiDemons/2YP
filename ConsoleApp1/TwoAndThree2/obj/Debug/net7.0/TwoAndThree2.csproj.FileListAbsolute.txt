@@ -1,0 +1,15 @@
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\bin\Debug\net7.0\TwoAndThree2.exe
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\bin\Debug\net7.0\TwoAndThree2.deps.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\bin\Debug\net7.0\TwoAndThree2.runtimeconfig.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\bin\Debug\net7.0\TwoAndThree2.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\bin\Debug\net7.0\TwoAndThree2.pdb
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.AssemblyInfoInputs.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.AssemblyInfo.cs
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.csproj.CoreCompileInputs.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.sourcelink.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\refint\TwoAndThree2.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.pdb
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\TwoAndThree2.genruntimeconfig.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndThree2\obj\Debug\net7.0\ref\TwoAndThree2.dll

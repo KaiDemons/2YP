@@ -1,0 +1,15 @@
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\bin\Debug\net7.0\TwoAndOne1.exe
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\bin\Debug\net7.0\TwoAndOne1.deps.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\bin\Debug\net7.0\TwoAndOne1.runtimeconfig.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\bin\Debug\net7.0\TwoAndOne1.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\bin\Debug\net7.0\TwoAndOne1.pdb
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.AssemblyInfoInputs.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.AssemblyInfo.cs
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.csproj.CoreCompileInputs.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.sourcelink.json
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\refint\TwoAndOne1.dll
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.pdb
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\TwoAndOne1.genruntimeconfig.cache
+C:\Users\gr624_praev\RiderProjects\ConsoleApp1\TwoAndOne1\obj\Debug\net7.0\ref\TwoAndOne1.dll
