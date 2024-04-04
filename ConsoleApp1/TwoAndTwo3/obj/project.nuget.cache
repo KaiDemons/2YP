@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Cmz5oTwCjSWWk/hDDHwEds8iaJLLe376EJ1WOa/Djh4VAhQulk/d+PNecaI6DaEYQkf45PovwClU5lcELK7bvQ==",
+  "dgSpecHash": "xfFhDTg7Qrx67nnTgBrQrTVWDIJbx/7L1Mvu7dg4LOz2YVa8eENLtu2Se/QZm8QUrMKyV9VIwPlpBnuMfPXU/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gr624_praev\\RiderProjects\\ConsoleApp1\\TwoAndTwo3\\TwoAndTwo3.csproj",
+  "projectFilePath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndTwo3\\TwoAndTwo3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }

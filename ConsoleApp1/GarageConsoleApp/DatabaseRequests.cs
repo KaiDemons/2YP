@@ -111,4 +111,86 @@ public static class DatabaseRequests
             Console.WriteLine($"Имя: {reader[0]} Фамилия: {reader[1]} Категория прав: {reader[2]}");
         }
     }
+
+    /// <summary>
+    /// Метод AddCarQuery
+    /// отправляет запрос в БД на добавление Машины
+    /// </summary>
+    public static void AddCarQuery(int idTypeCar, string name, string stateNumber, int numberPassanger)
+    {
+        var querySql = "INSERT INTO car(id_type_car, name, state_number, number_passengers)" +
+                       "VALUES ({id_type_car}, {name}, {state_number}, {number_passanger})";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        cmd.ExecuteNonQuery();
+    }
+
+    /// <summary>
+    /// Метод GetCarsQuery
+    /// выводит в консоль информацию о машинах
+    /// </summary>
+    public static void GetCarsQuery()
+    {
+        var querySql = "SELECT * FROM car";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        using var reader = cmd.ExecuteReader();
+        
+        while (reader.Read())
+        {
+            Console.WriteLine($"Id: {reader[0]} Марка: {reader[1]} Номер: {reader[2]} Кол-во пассажиров: {reader[3]}");
+        }
+    }
+
+    /// <summary>
+    /// Метод AddRouteQuery
+    /// Добавлине маршрута в БД
+    /// </summary>
+    public static void AddRouteQuery(string routeName)
+    {
+        var querySql = "INSERT INTO itinerary(name)" +
+                       "VALUES ({name})";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        cmd.ExecuteNonQuery();
+    }
+    /// <summary>
+    /// Метод GetRoutesQuery
+    /// Просмотр маршрута
+    /// </summary>
+    public static void GetRoutesQuery()
+    {
+        var querySql = "SELECT * FROM itinerary";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        using var reader = cmd.ExecuteReader();
+        
+        while (reader.Read())
+        {
+            Console.WriteLine($"Маршрут: {reader[0]}");
+        }
+    }
+    /// <summary>
+    /// Метод AddFlightQuery
+    /// Добавлине рейсов в БД
+    /// </summary>
+    public static void AddFlightQuery(int idDriver, int idCars, int idItinerary, int numberPassanger)
+    {
+        var querySql = "INSERT INTO route(id_driver, id_car, id_itinerary, number_passengers)" +
+                       "VALUES ({idDriver}, {idCar}, {idIditnerary}, {numberPassanger})";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        cmd.ExecuteNonQuery();
+    }
+    
+    /// <summary>
+    /// Метод GetFlightsQuery
+    /// Вывод информации о рейсе
+    /// </summary>
+    public static void GetFlightsQuery()
+    {
+        var querySql = "SELECT * FROM route";
+        using var cmd = new NpgsqlCommand(querySql, DatabaseService.GetSqlConnection());
+        using var reader = cmd.ExecuteReader();
+        
+        while (reader.Read())
+        {
+            Console.WriteLine($"idВодителя: {reader[0]} idМашины: {reader[1]} Маршрут: {reader[2]} Кол-во пассажиров: {reader[3]}");
+        }
+    }
 }
