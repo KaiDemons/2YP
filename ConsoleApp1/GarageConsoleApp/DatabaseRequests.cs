@@ -136,7 +136,7 @@ public static class DatabaseRequests
         
         while (reader.Read())
         {
-            Console.WriteLine($"Id: {reader[0]} Марка: {reader[1]} Номер: {reader[2]} Кол-во пассажиров: {reader[3]}");
+            Console.WriteLine($"Id: {reader[0]} Тип машины: {reader[1]} Марка: {reader[2]} Гос.Номер: {reader[3]} Кол-во пассажиров: {reader[4]}");
         }
     }
 
@@ -163,7 +163,7 @@ public static class DatabaseRequests
         
         while (reader.Read())
         {
-            Console.WriteLine($"Маршрут: {reader[0]}");
+            Console.WriteLine($"ID: {reader[0]} Маршрут: {reader[1]}");
         }
     }
     /// <summary>

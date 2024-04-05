@@ -54,7 +54,6 @@ public class Program
                     Console.WriteLine("Введите название категории прав:");
                     var categoryName = Console.ReadLine();
                     DatabaseRequests.AddRightsCategoryQuery(categoryName);
-
                     Console.WriteLine("Введите ID водителя:");
                     var driverIdForRightsCategory = int.Parse(Console.ReadLine());
                     Console.WriteLine("Введите ID категории прав:");

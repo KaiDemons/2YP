@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "GarageConsoleApp/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.0-preview.2.24128.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1"
         },
         "runtime": {
@@ -17,7 +18,7 @@
       "Microsoft.EntityFrameworkCore/7.0.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.1",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.1",
+          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.0-preview.2.24128.4",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -37,7 +38,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.1": {},
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {},
       "Microsoft.EntityFrameworkCore.Relational/7.0.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.1",
@@ -200,12 +201,12 @@
       "path": "microsoft.entityframeworkcore.abstractions/7.0.1",
       "hashPath": "microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.1": {
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4A4NFkPFoRMdry24Hjdb5/sOH3tU3hzFePTGnSg8P+VBrFp/EO8kcA4L0hBzwbXj2HGNL8I/quYyS5GVtb4EOg==",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.1",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512"
+      "sha512": "sha512-eK3lvFCvt/LBgk2xjb5q8moHgHpTnZ5pnINayaT4feRpDnQZ8ZCRBoHJ9f3EQuXN8vaWObeaaGdcqBhTQ1u+2w==",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.0-preview.2.24128.4",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.1": {
       "type": "package",

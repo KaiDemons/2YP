@@ -1,31 +1,59 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
+      "sha512": "eK3lvFCvt/LBgk2xjb5q8moHgHpTnZ5pnINayaT4feRpDnQZ8ZCRBoHJ9f3EQuXN8vaWObeaaGdcqBhTQ1u+2w==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.0-preview.2.24128.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
+        "docs/PACKAGE.md",
+        "microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Microsoft.EntityFrameworkCore.Analyzers >= 9.0.0-preview.2.24128.4"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\": {}
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\TwoAndThree3.csproj",
+      "projectUniqueName": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\TwoAndThree3.csproj",
       "projectName": "TwoAndThree3",
-      "projectPath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\TwoAndThree3.csproj",
-      "packagesPath": "C:\\Users\\KaiDemons\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\obj\\",
+      "projectPath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\TwoAndThree3.csproj",
+      "packagesPath": "C:\\Users\\gr624_praev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\KaiDemons\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gr624_praev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,11 +66,22 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": {
+            "target": "Package",
+            "version": "[9.0.0-preview.2.24128.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -77,7 +116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

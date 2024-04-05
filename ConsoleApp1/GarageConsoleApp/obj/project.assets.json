@@ -38,14 +38,8 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
+        "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Relational/7.0.1": {
         "type": "package",
@@ -321,17 +315,17 @@
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.1": {
-      "sha512": "4A4NFkPFoRMdry24Hjdb5/sOH3tU3hzFePTGnSg8P+VBrFp/EO8kcA4L0hBzwbXj2HGNL8I/quYyS5GVtb4EOg==",
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
+      "sha512": "eK3lvFCvt/LBgk2xjb5q8moHgHpTnZ5pnINayaT4feRpDnQZ8ZCRBoHJ9f3EQuXN8vaWObeaaGdcqBhTQ1u+2w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.1",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.0-preview.2.24128.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512",
+        "docs/PACKAGE.md",
+        "microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -713,28 +707,36 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore.Analyzers >= 9.0.0-preview.2.24128.4",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\": {}
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\GarageConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\GarageConsoleApp.csproj",
       "projectName": "GarageConsoleApp",
-      "projectPath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\GarageConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\KaiDemons\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\GarageConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\gr624_praev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\GarageConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\KaiDemons\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\gr624_praev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -747,12 +749,21 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Analyzers": {
+            "target": "Package",
+            "version": "[9.0.0-preview.2.24128.4, )"
+          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[7.0.1, )"
@@ -792,7 +803,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
