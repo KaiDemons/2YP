@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "o42zjI9e5/jHCu9okIWI20CzkpskLwVfVYGoWJtGBxTe9AnYQiyOQteFWGTbSKafLO+X0a1xLnpr5Y9VqGCKjA==",
+  "dgSpecHash": "xFHNMeqxjF6tM9Y/eoD+piQHrGi2wPXEOvFK+ls24Ppjb3So1AWgsITiAM80EoZ8IgNdCjr0Xeh/jnFhKunEmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree2\\TwoAndThree2.csproj",
+  "projectFilePath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndThree2\\TwoAndThree2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.2.24128.4\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.2.24128.4\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }

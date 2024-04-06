@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8nE3BFCFJzCDTC++vLczRfOyh79ZPT1l2kNVo+DCI9y3sEaNhNA2foep9wCXdqPz1g0JMJ7n1feMizyQI4VDWA==",
+  "dgSpecHash": "yjAcPu39K5Y4oWXOOp7Pg2Uyh83KdpRgsicCiA/OE1Lis3KcmmLA2ZtXqa1awXl7OdqVlhHbS4BMSdWTacYBmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KaiDemons\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndTwo3\\TwoAndTwo3.csproj",
+  "projectFilePath": "C:\\Users\\gr624_praev\\RiderProjects\\2YP\\ConsoleApp1\\TwoAndTwo3\\TwoAndTwo3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.2.24128.4\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\KaiDemons\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.2.24128.4\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\gr624_praev\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }
